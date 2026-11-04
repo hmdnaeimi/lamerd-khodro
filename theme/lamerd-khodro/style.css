@@ -1,0 +1,20 @@
+/*
+Theme Name: Lamerd Khodro
+Theme URI: https://lamerdkhodro.ir
+Author: Lamerd Khodro
+Author URI: https://lamerdkhodro.ir
+Description: قالب اختصاصی لامرد خودرو — واکنش‌گرا، راست‌به‌چپ و بدون صفحه‌ساز. طراحی‌شده برای بانک اطلاعات خودرو، قیمت روز، مقایسه و اخبار بازار خودرو.
+Version: 1.0.3
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 8.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lamerd-khodro
+Tags: rtl-language-support, custom-menu, custom-logo, featured-images, translation-ready, blog
+*/
+
+/*
+ * استایل‌های اصلی در assets/css/main.css قرار دارند و از طریق functions.php
+ * بارگذاری می‌شوند. این فایل فقط برای شناسنامه قالب لازم است.
+ */

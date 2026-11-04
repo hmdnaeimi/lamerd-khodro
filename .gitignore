@@ -1,0 +1,18 @@
+# نصب تست محلی وردپرس (خارج از تحویل پروژه)
+/.wp-test/
+
+# ابزارهای محیط/ایجنت
+/.freebuff/
+/.cloud-attachments/
+
+# فایل‌های سیستم و ادیتور
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# وابستگی‌ها و آرشیوها
+node_modules/
+vendor/
+*.zip
