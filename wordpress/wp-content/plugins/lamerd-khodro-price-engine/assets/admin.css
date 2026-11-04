@@ -1,0 +1,216 @@
+/**
+ * لامرد خودرو — استایل پیشخوان موتور قیمت.
+ */
+
+.lkp-wrap {
+	direction: rtl;
+}
+
+.lkp-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 12px;
+	margin: 16px 0 24px;
+}
+
+.lkp-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 14px 16px;
+}
+
+.lkp-card__label {
+	color: #646970;
+	font-size: 12px;
+	margin-bottom: 6px;
+}
+
+.lkp-card__value {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.lkp-card--alert .lkp-card__value {
+	color: #b32d2e;
+}
+
+.lkp-card--ok .lkp-card__value {
+	color: #007017;
+}
+
+.lkp-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 999px;
+	font-size: 11px;
+	line-height: 1.7;
+	background: #f0f0f1;
+	color: #3c434a;
+	white-space: nowrap;
+}
+
+.lkp-badge--ok {
+	background: #edfaef;
+	color: #007017;
+}
+
+.lkp-badge--warn {
+	background: #fcf9e8;
+	color: #7a5c00;
+}
+
+.lkp-badge--bad {
+	background: #fcf0f1;
+	color: #b32d2e;
+}
+
+.lkp-table-wrap {
+	overflow-x: auto;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+}
+
+.lkp-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13px;
+}
+
+.lkp-table th,
+.lkp-table td {
+	padding: 9px 12px;
+	text-align: right;
+	border-bottom: 1px solid #f0f0f1;
+	vertical-align: middle;
+}
+
+.lkp-table thead th {
+	background: #f6f7f7;
+	font-weight: 600;
+	color: #1d2327;
+	white-space: nowrap;
+}
+
+.lkp-table tbody tr:hover td {
+	background: #f9fafb;
+}
+
+.lkp-table .num {
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+.lkp-up {
+	color: #b32d2e;
+}
+
+.lkp-down {
+	color: #007017;
+}
+
+.lkp-muted {
+	color: #8c8f94;
+}
+
+.lkp-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	align-items: flex-end;
+	margin: 16px 0;
+}
+
+.lkp-filters label {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	font-size: 12px;
+	color: #50575e;
+}
+
+.lkp-filters input[type="text"],
+.lkp-filters input[type="date"],
+.lkp-filters input[type="number"],
+.lkp-filters select {
+	min-width: 130px;
+}
+
+.lkp-actions {
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+}
+
+.lkp-notice-inline {
+	margin: 12px 0;
+	padding: 10px 14px;
+	border-inline-start: 4px solid #2271b1;
+	background: #f0f6fc;
+	border-radius: 4px;
+}
+
+.lkp-notice-inline--ok {
+	border-inline-start-color: #007017;
+	background: #edfaef;
+}
+
+.lkp-notice-inline--bad {
+	border-inline-start-color: #b32d2e;
+	background: #fcf0f1;
+}
+
+.lkp-danger {
+	border: 1px solid #f0c3c4;
+	background: #fcf0f1;
+	border-radius: 8px;
+	padding: 16px;
+	margin-top: 24px;
+}
+
+.lkp-danger h2 {
+	color: #b32d2e;
+	margin-top: 0;
+}
+
+.lkp-summary {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 18px;
+	margin: 14px 0;
+	padding: 12px 16px;
+	background: #f6f7f7;
+	border-radius: 8px;
+	font-size: 13px;
+}
+
+.lkp-summary strong {
+	font-weight: 700;
+}
+
+.lkp-pagination {
+	display: flex;
+	gap: 6px;
+	align-items: center;
+	margin: 12px 0;
+}
+
+.lkp-hint {
+	color: #646970;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.lkp-code {
+	display: inline-block;
+	direction: ltr;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 4px 8px;
+	font-family: Consolas, Monaco, monospace;
+	font-size: 12px;
+	unicode-bidi: embed;
+}
